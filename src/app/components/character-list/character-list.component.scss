@@ -1,0 +1,62 @@
+.border-bottom{
+    border-bottom: 1px solid white;
+}
+.list-wrapper{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    .list-layout{
+        background: black;
+        padding: 10px;
+    }
+    .list-header{
+        position: relative;
+        min-height: 225px;;
+        .image{
+            width: 100%;
+        }
+        .list-name{
+            position: absolute;
+            background: black;
+            bottom: 0px;
+            opacity: 0.7;
+            width: 100%;
+            color: white;
+            padding: 5px;
+            .name{
+                font-size: 17px;
+            }
+            .info{
+                font-size: 12px;
+            }
+        }
+    }
+    .list-body{
+        background:#383636;
+        min-height: 200px;
+        .body-attribute{
+            padding: 10px;
+            font-size: 11px; 
+            .attribute-label{
+                color: white;
+                display: block;
+                max-width: 40px;
+                margin-bottom: 9px;
+            }
+            .attribute-value{
+                color: #dfa613;
+                text-align: end;
+                display: block;
+                max-width: 100px;
+                position: absolute;
+                right: 0px;
+                top: 5px;
+            }
+            .attribute{
+                padding: 5px;
+                position: relative;
+
+            }
+        }
+    }
+}
